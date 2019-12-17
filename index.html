@@ -39,7 +39,7 @@
     <div id="cv-menu">
         <nav id="cv-main-menu">
             <ul>
-                <!-- SIDEBAR MENU ICON 
+                <!-- SIDEBAR MENU ICON
                 <li><a href="#" class="cv-menu-button fa fa-bars">Menu</a>
                 </li>-->
                 <!-- PAGE 1 LINK -->
@@ -112,7 +112,7 @@
                                 <a href="https://www.linkedin.com/in/mwigdahl/" class="fa fa-linkedin tooltip-social" title="LINKEDIN">Linkedin</a>
                             </li>
                             <li>
-                                <a href="https://github.com/mwigdahl" class="fa fa-github tooltip-social" title="VIMEO">Vimeo</a>
+                                <a href="https://github.com/mwigdahl" class="fa fa-github tooltip-social" title="GITHUB">GitHub</a>
                             </li>
                         </ul>
                     </nav>
@@ -156,7 +156,7 @@
                 <hr/>
                <!-- <h2 class="border">WHAT CAN I DO</h2>
                 <div class="cv-main-icon-container">
-                    - ICON BLOCK -  
+                    - ICON BLOCK -
                     <div class="cv-icon-block">
                         <div class="cv-icon-container">
                             <a href="#" class="fa fa-paint-brush">Web Design</a>
@@ -246,7 +246,7 @@
                 </div>
                 <div class="cv-resume-box">
                     <div class="cv-resume-title">
-                        <h5>President - CEO</h5>
+                        <h5>President/CEO - Lever Pulley</h5>
                         <p>2012-Present</p>
                     </div>
                     <p>Manage and oversee all aspects of the web development business operations.  Primary responsible are developing the company vision and business plan from concept to execution, new business development, product development, and lead project strategist.</p>
@@ -264,7 +264,7 @@
                     <div class="cv-resume-title">
                         <h5>University of Utah, Full Stack Web Development</h5>
                         <p>2019-2020</p>
-                    </div>  
+                    </div>
                 <div class="cv-resume-box">
                     <div class="cv-resume-title">
                         <h5>Bachelor of Science, University of Utah</h5>
@@ -273,9 +273,9 @@
                      </div>
                 <div class="cv-resume-box">
                     <div class="cv-resume-title">
-                        <h5>Goldman Sachs 10,000 Small Business</h5>
+                        <h5>Goldman Sachs 10,000 Small Business Graduate</h5>
                         <p>2013</p>
-                    </div>                  
+                    </div>
                 </div>
                 <hr/>
                 <h2 class="border">SKILLS</h2>
@@ -340,42 +340,54 @@
                 <!-- PORTFOLIO FILTERS -->
                 <ul id="cv-portfolio-filter" class="cvfilters">
                     <li data-filter="all" class="gridactive">All</li>
-                    <li data-filter="cat1">Javascript</li>
+                    <li data-filter="cat1">Javascript/jQuery</li>
+                    <li data-filter="cat3">Node.js</li>
                     <li data-filter="cat2">API</li>
                 </ul>
                 <div class="clear"></div>
                 <!-- PORTFOLIO GRID -->
                 <ul id="cv-portfolio" class="cvgrid">
+                  <li data-filter-class='["all","cat1", "cat2", "cat3"]'>
+                      <figure>
+                          <a target="_blank" href="https://projtwo.herokuapp.com/" class="cvgrid-link" target="_blank">
+                              <img src="images/photos/portfolio_skinder.png" alt="" />
+                          </a>
+                          <figcaption>
+                              <div class="cvgrid-title">Ski Finder App<br/>
+                                  <a target="_blank" href="https://github.com/mwigdahl/ski-finder-app">View GitHub Repo</a></div>
+                          </figcaption>
+                      </figure>
+                  </li>
                     <li data-filter-class='["all","cat1"]'>
                         <figure>
-                            <a target="_blank" href="https://mwigdahl.github.io/TriviaGame/" class="cvgrid-img">
+                            <a target="_blank" href="https://mwigdahl.github.io/TriviaGame/" class="cvgrid-link">
                                 <img src="images/photos/portfolio_3.png" alt="" />
                             </a>
                             <figcaption>
                                 <div class="cvgrid-title">Trivia Game<br/>
-                                    <a target="_blank" href="https://github.com/mwigdahl/TriviaGame">GitHub</a></div>
+                                    <a target="_blank" href="https://github.com/mwigdahl/TriviaGame">View GitHub Repo</a></div>
                             </figcaption>
                         </figure>
                     </li>
                     <li data-filter-class='["all","cat1"]'>
                         <figure>
-                            <a  target="_blank" href="https://mwigdahl.github.io/unit-4-game" class="openlightbox cvgrid-video">
+                            <a  target="_blank" href="https://mwigdahl.github.io/unit-4-game" class="cvgrid-link">
                                 <img src="images/photos/portfolio_2.png" alt="" />
                             </a>
                             <figcaption>
                                 <div class="cvgrid-title">Crystal Collector Game<br/>
-                                <a target="_blank" href="https://github.com/mwigdahl/unit-4-game">GitHub</a></div>
+                                <a target="_blank" href="https://github.com/mwigdahl/unit-4-game">View GitHub Repo</a></div>
                             </figcaption>
                         </figure>
                     </li>
                     <li data-filter-class='["all","cat2"]'>
                         <figure>
-                            <a  target="_blank" href="https://mwigdahl.github.io/Project_One/" class="openlightbox cvgrid-img">
+                            <a  target="_blank" href="https://mwigdahl.github.io/Project_One/" class="cvgrid-link">
                                 <img src="images/photos/portfolio_4.png" alt="" />
                             </a>
                             <figcaption>
                                 <div class="cvgrid-title">Ridedshare Pubcrawl App<br/>
-                                    <a target="_blank" href="https://github.com/mwigdahl/Project_One">GitHub</a></div>
+                                    <a target="_blank" href="https://github.com/mwigdahl/Project_One">View GitHub Repo</a></div>
                             </figcaption>
                         </figure>
                     </li>
@@ -386,7 +398,40 @@
                             </a>
                             <figcaption>
                                 <div class="cvgrid-title">Psychic Game<br/>
-                                    <a target="_blank" href="https://github.com/mwigdahl/Psychic-Game/">GitHub</a></div>
+                                    <a target="_blank" href="https://github.com/mwigdahl/Psychic-Game/">View GitHub Repo</a></div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li data-filter-class='["all","cat1", "cat3"]'>
+                        <figure>
+                            <a target="_blank" href="https://github.com/mwigdahl/bamazon/" class="cvgrid-link" target="_blank">
+                                <img src="images/photos/portfolio_bamazon.png" alt="" />
+                            </a>
+                            <figcaption>
+                                <div class="cvgrid-title">BAMazon<br/>
+                                    <a target="_blank" href="https://github.com/mwigdahl/bamazon/">View GitHub Repo</a></div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li data-filter-class='["all","cat1", "cat3"]'>
+                        <figure>
+                            <a target="_blank" href="https://friend-finder-mwig.herokuapp.com/" class="cvgrid-link" target="_blank">
+                                <img src="images/photos/portfolio_ff.png" alt="" />
+                            </a>
+                            <figcaption>
+                                <div class="cvgrid-title">Friend Finder App<br/>
+                                    <a target="_blank" href="https://github.com/mwigdahl/friend-finder">View GitHub Repo</a></div>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li data-filter-class='["all","cat1", "cat3"]'>
+                        <figure>
+                            <a target="_blank" href="https://burger-app-mwig.herokuapp.com/" class="cvgrid-link" target="_blank">
+                                <img src="images/photos/portfolio_burger.png" alt="" />
+                            </a>
+                            <figcaption>
+                                <div class="cvgrid-title">MySQL Burger App<br/>
+                                    <a target="_blank" href="https://github.com/mwigdahl/burger">View GitHub Repo</a></div>
                             </figcaption>
                         </figure>
                     </li>
